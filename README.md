@@ -13,7 +13,7 @@ Made for Delta & Xeno; should work for ALL executors.
 <summary>UI Preview</summary>
 <br>
 
-![Rodus UI Preview](https://i.imgur.com/EWjdGx9.png)
+![Rodus UI Preview](https://i.imgur.com/RrFcby2.png)
 </details>
 
 <details>
