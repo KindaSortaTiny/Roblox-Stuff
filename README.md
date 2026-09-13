@@ -1,14 +1,28 @@
 # Rodus
 
-Personal rewrite of **Rodus**.
+A personal rewrite of the original **Rodus** UI.
 
-> ⚠️ Personal use only. No support, issues, or guarantees.
-## Controls
-- `LeftControl` — show/hide UI
+> ⚠️ Personal-use project. No support, issue handling, or guarantees are provided.
 
-## Showcase
+> Credit and apologies to the original developer of Rodus.
+
+> My version is re-themed with new UI functions added such as dropdowns, multi-select, toggles, etc.
+
+<details>
+<summary>UI Preview</summary>
+<br>
+
+![Rodus UI Preview](https://i.imgur.com/IMAGE_ID.png)
+</details>
+
+<details>
+<summary>Showcase Source</summary>
+
+<br>
+
 ```lua
-local Rodus = loadstring(game:HttpGet("https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua"))()
+local Rodus = loadstring(game:HttpGet("[https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua](https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua)"))()
+
 local Window = Rodus("Rodus")
 local Main = Window.CreateTab("Main")
 local Settings = Window.CreateTab("Settings")
@@ -18,9 +32,14 @@ local selectedMode = "Legit"
 local selectedTargets = {}
 
 Main.CreateLabel(Main, "Automation")
+
 Main.CreateButton(Main, "Print Status", function()
     print("Auto Farm:", autoFarm)
     print("Mode:", selectedMode)
+
+    for target, enabled in pairs(selectedTargets) do
+        print(target, enabled)
+    end
 end)
 
 Main.CreateToggle(Main, "Auto Farm", function()
@@ -29,6 +48,7 @@ Main.CreateToggle(Main, "Auto Farm", function()
 end)
 
 Settings.CreateLabel(Settings, "Settings")
+
 Settings.CreateSideDropButton(Settings, "Mode", {
     "Legit",
     "Hybrid",
@@ -47,3 +67,8 @@ Settings.CreateSideDropToggle(Settings, "Targets", {
     print(option, selectedTargets[option])
 end)
 ```
+
+</details>
+
+## Controls
+- `LeftControl` — Show/hide UI
