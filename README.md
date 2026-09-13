@@ -1,6 +1,7 @@
 # Rodus
 
 A personal rewrite of the original **Rodus** UI.
+Made for Delta & Xeno; should work for ALL executors.
 
 > ⚠️ Personal-use project. No support, issue handling, or guarantees are provided.
 
@@ -12,7 +13,7 @@ A personal rewrite of the original **Rodus** UI.
 <summary>UI Preview</summary>
 <br>
 
-![Rodus UI Preview](https://i.imgur.com/IMAGE_ID.png)
+![Rodus UI Preview](https://i.imgur.com/EWjdGx9.png)
 </details>
 
 <details>
@@ -21,7 +22,7 @@ A personal rewrite of the original **Rodus** UI.
 <br>
 
 ```lua
-local Rodus = loadstring(game:HttpGet("[https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua](https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua)"))()
+local Rodus = loadstring(game:HttpGet("https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua"))()
 
 local Window = Rodus("Rodus")
 local Main = Window.CreateTab("Main")
