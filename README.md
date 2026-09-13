@@ -3,11 +3,15 @@
 Personal rewrite of **Rodus**.
 
 > ⚠️ Personal use only. No support, issues, or guarantees.
+## Controls
+- Drag title bar — move UI
+- `LeftControl` — show/hide UI
+- `-` / `+` — collapse/expand tabs
+- Tab — open side panel
 
 ## Showcase
 ```lua
 local Rodus = loadstring(game:HttpGet("https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua"))()
-
 local Window = Rodus("Rodus")
 local Main = Window.CreateTab("Main")
 local Settings = Window.CreateTab("Settings")
@@ -46,10 +50,3 @@ Settings.CreateSideDropToggle(Settings, "Targets", {
     print(option, selectedTargets[option])
 end)
 ```
-
-## Controls
-
-- Drag title bar — move UI
-- `LeftControl` — show/hide UI
-- `-` / `+` — collapse/expand tabs
-- Tab — open side panel
