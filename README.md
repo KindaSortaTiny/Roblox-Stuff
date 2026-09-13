@@ -4,10 +4,7 @@ Personal rewrite of **Rodus**.
 
 > ⚠️ Personal use only. No support, issues, or guarantees.
 ## Controls
-- Drag title bar — move UI
 - `LeftControl` — show/hide UI
-- `-` / `+` — collapse/expand tabs
-- Tab — open side panel
 
 ## Showcase
 ```lua
