@@ -22,7 +22,7 @@ Made for Delta & Xeno; should work for ALL executors.
 <br>
 
 ```lua
-local Rodus = loadstring(game:HttpGet("https://raw.githubusercontent.com/KindaSortaTiny/RodusUI/refs/heads/main/UILib.lua"))()
+local Rodus = loadstring(game:HttpGet("https://raw.githubusercontent.com/KindaSortaTiny/Roblox-Stuff/refs/heads/main/UIs/Rodus/Rodus.lua"))()
 
 local Window = Rodus("Rodus")
 local Main = Window.CreateTab("Main")
