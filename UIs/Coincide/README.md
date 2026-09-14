@@ -10,7 +10,7 @@ Works for Delta & Xeno; should work for ALL executors.
 <summary>UI Preview</summary>
 <br>
 
-![Coincide UI Preview](https://i.imgur.com/sc7GVC2.png)
+![Coincide UI Preview](https://i.imgur.com/OeiNrDe.png)
 </details>
 
 <details>
